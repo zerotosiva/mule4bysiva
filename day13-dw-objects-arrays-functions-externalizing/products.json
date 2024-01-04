@@ -1,0 +1,98 @@
+[
+  {
+    "productId": 1,
+    "name": "Hp Pavilion laptop",
+    "description": "Hp Laptop ",
+    "originalPrice": 1000,
+    "offer": {
+      "offerPrice": 1000,
+      "offerValidUntil": 1467105373745
+    },
+    "brandName": "HP",
+    "images": [
+      "image1.jpeg",
+      "image2.jpeg",
+      "image3.jpeg"
+    ]
+  },
+  {
+    "productId": 2,
+    "name": "Macbook Pro laptop",
+    "description": "Apple Laptop ",
+    "originalPrice": 3000,
+    "offer": {
+      "offerPrice": 3000,
+      "offerValidUntil": 1467105374471
+    },
+    "brandName": "Apple",
+    "images": [
+      "image3.jpeg",
+      "image4.jpeg",
+      "image5.jpeg"
+    ]
+  },
+  {
+    "productId": 3,
+    "name": "Mac Book  laptop",
+    "description": "Apple Laptop ",
+    "originalPrice": 2000,
+    "offer": {
+      "offerPrice": 2000,
+      "offerValidUntil": 1467105374474
+    },
+    "brandName": "Apple",
+    "images": [
+      "image6.jpeg",
+      "image7.jpeg",
+      "image8.jpeg"
+    ]
+  },
+  {
+    "productId": 4,
+    "name": "IBM laptop",
+    "description": "IBM Laptop ",
+    "originalPrice": 4000,
+    "offer": {
+      "offerPrice": 4000,
+      "offerValidUntil": 1467105374477
+    },
+    "brandName": "IBM",
+    "images": [
+      "image9.jpeg",
+      "image10.jpeg",
+      "image11.jpeg"
+    ]
+  },
+  {
+    "productId": 5,
+    "name": "MotoX Mobile",
+    "description": "Motorola Mobile ",
+    "originalPrice": 1000,
+    "offer": {
+      "offerPrice": 1000,
+      "offerValidUntil": 1467105374480
+    },
+    "brandName": "Motorola",
+    "images": [
+      "image12.jpeg",
+      "image13.jpeg",
+      "image14.jpeg"
+    ]
+  },
+  {
+    "productId": 6,
+    "name": "Samsung Note 5",
+    "description": "Samsung Mobile ",
+    "originalPrice": 5000,
+    "offer": {
+      "offerPrice": 5000,
+      "offerValidUntil": 1467105374482
+    },
+    "brandName": "Samsung",
+    "images": [
+      "image15.jpeg",
+      "image16.jpeg",
+      "image17.jpeg"
+    ]
+  }
+]
