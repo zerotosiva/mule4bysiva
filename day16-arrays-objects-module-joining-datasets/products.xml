@@ -1,0 +1,98 @@
+ <way2learn:products xmlns:way2learn="http://way2learnonline.com/domain">
+            <product productId="1">
+               <brandName>HP</brandName>
+               <description>Hp Laptop</description>
+               <images>
+                  <image>image1.jpeg</image>
+                  <image>image2.jpeg</image>
+                  <image>image3.jpeg</image>
+               </images>
+               <name>Hp Pavilion laptop</name>
+               <offer>
+                  <offerPrice>1000.0</offerPrice>
+                  <offerValidUntil>2016-06-29</offerValidUntil>
+               </offer>
+               <originalPrice>1000.0</originalPrice>
+              
+            </product>
+             <product productId="2">
+               <brandName>Apple</brandName>
+               <description>Apple Laptop</description>
+               <images>
+                  <image>image3.jpeg</image>
+                  <image>image4.jpeg</image>
+                  <image>image5.jpeg</image>
+               </images>
+               <name>Macbook Pro laptop</name>
+               <offer>
+                  <offerPrice>3000.0</offerPrice>
+                  <offerValidUntil>2016-06-29</offerValidUntil>
+               </offer>
+               <originalPrice>3000.0</originalPrice>
+             
+            </product>
+            <product productId="3">
+               <brandName>Apple</brandName>
+               <description>Apple Laptop</description>
+               <images>
+                  <image>image6.jpeg</image>
+                  <image>image7.jpeg</image>
+                  <image>image8.jpeg</image>
+               </images>
+               <name>Mac Book  laptop</name>
+               <offer>
+                  <offerPrice>2000.0</offerPrice>
+                  <offerValidUntil>2016-06-29</offerValidUntil>
+               </offer>
+               <originalPrice>2000.0</originalPrice>
+             
+            </product>
+             <product productId="4">
+               <brandName>IBM</brandName>
+               <description>IBM Laptop</description>
+               <images>
+                  <image>image9.jpeg</image>
+                  <image>image10.jpeg</image>
+                  <image>image11.jpeg</image>
+               </images>
+               <name>IBM laptop</name>
+               <offer>
+                  <offerPrice>4000.0</offerPrice>
+                  <offerValidUntil>2016-06-29</offerValidUntil>
+               </offer>
+               <originalPrice>4000.0</originalPrice>
+              
+            </product>
+           <product productId="5">
+               <brandName>Motorola</brandName>
+               <description>Motorola Mobile</description>
+               <images>
+                  <image>image12.jpeg</image>
+                  <image>image13.jpeg</image>
+                  <image>image14.jpeg</image>
+               </images>
+               <name>MotoX Mobile</name>
+               <offer>
+                  <offerPrice>1000.0</offerPrice>
+                  <offerValidUntil>2016-06-29</offerValidUntil>
+               </offer>
+               <originalPrice>1000.0</originalPrice>
+               
+            </product>
+             <product productId="6">
+               <brandName>Samsung</brandName>
+               <description>Samsung Mobile</description>
+               <images>
+                  <image>image15.jpeg</image>
+                  <image>image16.jpeg</image>
+                  <image>image17.jpeg</image>
+               </images>
+               <name>Samsung Note 5</name>
+               <offer>
+                  <offerPrice>5000.0</offerPrice>
+                  <offerValidUntil>2016-06-29</offerValidUntil>
+               </offer>
+               <originalPrice>5000.0</originalPrice>
+               
+            </product>
+     </way2learn:products>
