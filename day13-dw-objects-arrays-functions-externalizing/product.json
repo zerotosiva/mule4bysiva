@@ -4,7 +4,7 @@
     "description": "Hp Laptop ",
     "originalPrice": 1000,
     "offer": {
-      "offerPrice": 1000,
+      "discountPercentage": 25,
       "offerValidUntil": 1467105373745
     },
     "brandName": "HP",

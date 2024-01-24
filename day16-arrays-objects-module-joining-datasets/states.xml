@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<states nation="United States of America" nation-abbreviation="USA" nation-capital="Washington, D.C.">
+  <state name="Alabama" abbreviation="AL" capital="Montgomery" date="1819-12-14" most-populous-city="Birmingham" population="4708708" square-miles="52423" time-zone-1="CST (UTC-06)" time-zone-2="EST (UTC-05)" dst="Yes"/>
+  <state name="Alaska" abbreviation="AK" capital="Juneau" date="1959-01-03" most-populous-city="Anchorage" population="698473" square-miles="656425" time-zone-1="AKST (UTC-09)" time-zone-2="HST (UTC-10)" dst="Yes"/>
+  <state name="Arizona" abbreviation="AZ" capital="Phoenix" date="1912-02-14" most-populous-city="Phoenix" population="6595778" square-miles="114006" time-zone-1="MT (UTC-07)" dst="No"/>
+  <state name="Arkansas" abbreviation="AR" capital="Little Rock" date="1836-06-15" most-populous-city="Little Rock" population="2889450" square-miles="53182" time-zone-1="CST (UTC-06)" dst="Yes"/>
+  <state name="California" abbreviation="CA" capital="Sacramento" date="1850-09-09" most-populous-city="Los Angeles" population="36961664" square-miles="163707" time-zone-1="PT (UTC-08)" dst="Yes"/>
+  <state name="Colorado" abbreviation="CO" capital="Denver" date="1876-08-01" most-populous-city="Denver" population="5024748" square-miles="104100" time-zone-1="MT (UTC-07)" dst="Yes"/>
+  <state name="Connecticut" abbreviation="CT" capital="Hartford" date="1788-01-09" most-populous-city="Bridgeport" population="3518288" square-miles="5544" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="Delaware" abbreviation="DE" capital="Dover" date="1787-12-07" most-populous-city="Wilmington" population="885122" square-miles="1954" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="Florida" abbreviation="FL" capital="Tallahassee" date="1845-03-03" most-populous-city="Jacksonville" population="18537969" square-miles="65758" time-zone-1="EST (UTC-05)" time-zone-2="CST (UTC-06)" dst="Yes"/>
+  <state name="Georgia" abbreviation="GA" capital="Atlanta" date="1788-01-02" most-populous-city="Atlanta" population="9829211" square-miles="59441" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="Hawaii" abbreviation="HI" capital="Honolulu" date="1959-08-21" most-populous-city="Honolulu" population="1295178" square-miles="10932" time-zone-1="HST (UTC-10)" dst="No"/>
+  <state name="Idaho" abbreviation="ID" capital="Boise" date="1890-07-03" most-populous-city="Boise" population="1545801" square-miles="83574" time-zone-1="MT (UTC-07)" time-zone-2="PT (UTC-08)" dst="Yes"/>
+  <state name="Illinois" abbreviation="IL" capital="Springfield" date="1818-12-03" most-populous-city="Chicago" population="12910409" square-miles="57918" time-zone-1="CST (UTC-06)" dst="Yes"/>
+  <state name="Indiana" abbreviation="IN" capital="Indianapolis" date="1816-12-11" most-populous-city="Indianapolis" population="6423113" square-miles="36420" time-zone-1="EST (UTC-05)" time-zone-2="CST (UTC-06)" dst="Yes"/>
+  <state name="Iowa" abbreviation="IA" capital="Des Moines" date="1846-12-28" most-populous-city="Des Moines" population="3007856" square-miles="56276" time-zone-1="CST (UTC-06)" dst="Yes"/>
+  <state name="Kansas" abbreviation="KS" capital="Topeka" date="1861-01-29" most-populous-city="Wichita" population="2818747" square-miles="82282" time-zone-1="CST (UTC-06)" time-zone-2="MT (UTC-07)" dst="Yes"/>
+  <state name="Kentucky" abbreviation="KY" capital="Frankfort" date="1792-06-01" most-populous-city="Louisville" population="4314113" square-miles="40411" time-zone-1="EST (UTC-05)" time-zone-2="CST (UTC-06)" dst="Yes"/>
+  <state name="Louisiana" abbreviation="LA" capital="Baton Rouge" date="1812-04-30" most-populous-city="New Orleans" population="4492076" square-miles="51843" time-zone-1="CST (UTC-06)" dst="Yes"/>
+  <state name="Maine" abbreviation="ME" capital="Augusta" date="1820-03-15" most-populous-city="Portland" population="1318301" square-miles="35387" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="Maryland" abbreviation="MD" capital="Annapolis" date="1788-04-28" most-populous-city="Baltimore" population="5699478" square-miles="12407" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="Massachusetts" abbreviation="MA" capital="Boston" date="1788-02-06" most-populous-city="Boston" population="6593587" square-miles="10555" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="Michigan" abbreviation="MI" capital="Lansing" date="1837-01-26" most-populous-city="Detroit" population="9969727" square-miles="96810" time-zone-1="EST (UTC-05)" time-zone-2="CST (UTC-06)" dst="Yes"/>
+  <state name="Minnesota" abbreviation="MN" capital="Saint Paul" date="1858-05-11" most-populous-city="Minneapolis" population="5266214" square-miles="86943" time-zone-1="CST (UTC-06)" dst="Yes"/>
+  <state name="Mississippi" abbreviation="MS" capital="Jackson" date="1817-12-10" most-populous-city="Jackson" population="2951996" square-miles="48434" time-zone-1="CST (UTC-06)" dst="Yes"/>
+  <state name="Missouri" abbreviation="MO" capital="Jefferson City" date="1821-08-10" most-populous-city="Kansas City" population="5987580" square-miles="69709" time-zone-1="CST (UTC-06)" dst="Yes"/>
+  <state name="Montana" abbreviation="MT" capital="Helena" date="1889-11-08" most-populous-city="Billings" population="974989" square-miles="147046" time-zone-1="MT (UTC-07)" dst="Yes"/>
+  <state name="Nebraska" abbreviation="NE" capital="Lincoln" date="1867-03-01" most-populous-city="Omaha" population="1796619" square-miles="77358" time-zone-1="CST (UTC-06)" time-zone-2="MT (UTC-07)" dst="Yes"/>
+  <state name="Nevada" abbreviation="NV" capital="Carson City" date="1864-10-31" most-populous-city="Las Vegas" population="2643085" square-miles="110567" time-zone-1="PT (UTC-08)" time-zone-2="MT (UTC-07)" dst="Yes"/>
+  <state name="New Hampshire" abbreviation="NH" capital="Concord" date="1788-06-21" most-populous-city="Machester" population="1324575" square-miles="9351" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="New Jersey" abbreviation="NJ" capital="Trenton" date="1787-12-18" most-populous-city="Newark" population="8707739" square-miles="8722" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="New Mexico" abbreviation="NM" capital="Santa Fe" date="1912-01-06" most-populous-city="Albuquerque" population="2009671" square-miles="121593" time-zone-1="MT (UTC-07)" dst="Yes"/>
+  <state name="New York" abbreviation="NY" capital="Albany" date="1788-07-26" most-populous-city="New York" population="19541453" square-miles="54475" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="North Carolina" abbreviation="NC" capital="Raleigh" date="1789-11-21" most-populous-city="Charlotte" population="9380884" square-miles="53821" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="North Dakota" abbreviation="ND" capital="Bismarck" date="1889-11-02" most-populous-city="Fargo" population="646844" square-miles="70704" time-zone-1="CST (UTC-06)" time-zone-2="MT (UTC-07)" dst="Yes"/>
+  <state name="Ohio" abbreviation="OH" capital="Columbus" date="1803-03-01" most-populous-city="Columbus" population="11542645" square-miles="44828" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="Oklahoma" abbreviation="OK" capital="Oklahoma City" date="1907-11-16" most-populous-city="Oklahoma City" population="3687050" square-miles="69903" time-zone-1="CST (UTC-06)" dst="Yes"/>
+  <state name="Oregon" abbreviation="OR" capital="Salem" date="1859-02-14" most-populous-city="Portland" population="3825657" square-miles="98386" time-zone-1="PT (UTC-08)" time-zone-2="MT (UTC-07)" dst="Yes"/>
+  <state name="Pennsylvania" abbreviation="PA" capital="Harrisburg" date="1787-12-12" most-populous-city="Philadelphia" population="12604767" square-miles="46058" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="Rhode Island" abbreviation="RI" capital="Providence" date="1790-05-29" most-populous-city="Providence" population="1053209" square-miles="1545" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="South Carolina" abbreviation="SC" capital="Columbia" date="1788-05-23" most-populous-city="Columbia" population="4561242" square-miles="32007" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="South Dakota" abbreviation="SD" capital="Pierre" date="1889-11-02" most-populous-city="Sioux Falls" population="812383" square-miles="77121" time-zone-1="CST (UTC-06)" time-zone-2="MT (UTC-07)" dst="Yes"/>
+  <state name="Tennessee" abbreviation="TN" capital="Nashville" date="1796-06-01" most-populous-city="Memphis" population="6296254" square-miles="42146" time-zone-1="CST (UTC-06)" time-zone-2="EST (UTC-05)" dst="Yes"/>
+  <state name="Texas" abbreviation="TX" capital="Austin" date="1845-12-29" most-populous-city="Houston" population="24782302" square-miles="268601" time-zone-1="CST (UTC-06)" time-zone-2="MT (UTC-07)" dst="Yes"/>
+  <state name="Utah" abbreviation="UT" capital="Salt Lake City" date="1896-01-04" most-populous-city="Salt Lake City" population="2784572" square-miles="84904" time-zone-1="MT (UTC-07)" dst="Yes"/>
+  <state name="Vermont" abbreviation="VT" capital="Montpelier" date="1791-03-04" most-populous-city="Burlington" population="621760" square-miles="9615" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="Virginia" abbreviation="VA" capital="Richmond" date="1788-06-25" most-populous-city="Virginia Beach" population="7882590" square-miles="42769" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="Washington" abbreviation="WA" capital="Olympia" date="1889-11-11" most-populous-city="Seattle" population="6664195" square-miles="71303" time-zone-1="PT (UTC-08)" dst="Yes"/>
+  <state name="West Virginia" abbreviation="WV" capital="Charleston" date="1863-06-20" most-populous-city="Charleston" population="1819777" square-miles="24231" time-zone-1="EST (UTC-05)" dst="Yes"/>
+  <state name="Wisconsin" abbreviation="WI" capital="Madison" date="1848-05-29" most-populous-city="Milwaukee" population="5654774" square-miles="65503" time-zone-1="CST (UTC-06)" dst="Yes"/>
+  <state name="Wyoming" abbreviation="WY" capital="Cheyenne" date="1890-07-10" most-populous-city="Cheyenne" population="544270" square-miles="97818" time-zone-1="MT (UTC-07)" dst="Yes"/>
+</states>
