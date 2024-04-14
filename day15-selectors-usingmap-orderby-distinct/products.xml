@@ -1,5 +1,5 @@
  <way2learn:products xmlns:way2learn="http://way2learnonline.com/domain">
-            <product>
+            <product productId="1" brand="Hp">
                <brandName>HP</brandName>
                <description>Hp Laptop</description>
                <images>
@@ -13,9 +13,9 @@
                   <offerValidUntil>2016-06-29</offerValidUntil>
                </offer>
                <originalPrice>1000.0</originalPrice>
-               <productId>1</productId>
+              
             </product>
-            <product>
+             <product productId="2">
                <brandName>Apple</brandName>
                <description>Apple Laptop</description>
                <images>
@@ -29,9 +29,9 @@
                   <offerValidUntil>2016-06-29</offerValidUntil>
                </offer>
                <originalPrice>3000.0</originalPrice>
-               <productId>2</productId>
+             
             </product>
-            <product>
+            <product productId="3">
                <brandName>Apple</brandName>
                <description>Apple Laptop</description>
                <images>
@@ -45,9 +45,9 @@
                   <offerValidUntil>2016-06-29</offerValidUntil>
                </offer>
                <originalPrice>2000.0</originalPrice>
-               <productId>3</productId>
+             
             </product>
-            <product>
+             <product productId="4">
                <brandName>IBM</brandName>
                <description>IBM Laptop</description>
                <images>
@@ -61,9 +61,9 @@
                   <offerValidUntil>2016-06-29</offerValidUntil>
                </offer>
                <originalPrice>4000.0</originalPrice>
-               <productId>4</productId>
+              
             </product>
-            <product>
+           <product productId="5">
                <brandName>Motorola</brandName>
                <description>Motorola Mobile</description>
                <images>
@@ -77,9 +77,9 @@
                   <offerValidUntil>2016-06-29</offerValidUntil>
                </offer>
                <originalPrice>1000.0</originalPrice>
-               <productId>5</productId>
+               
             </product>
-            <product>
+             <product productId="6">
                <brandName>Samsung</brandName>
                <description>Samsung Mobile</description>
                <images>
@@ -93,6 +93,6 @@
                   <offerValidUntil>2016-06-29</offerValidUntil>
                </offer>
                <originalPrice>5000.0</originalPrice>
-               <productId>6</productId>
+               
             </product>
      </way2learn:products>
