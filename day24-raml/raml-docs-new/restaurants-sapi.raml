@@ -1,0 +1,67 @@
+#%RAML 1.0
+title: restaurants-sapi
+baseUri: http://localhost:8081/api
+mediaType: 
+- application/json
+
+resourceTypes:
+  collection: !include resourceTypes/collectionresourcetype.raml
+  member: !include  resourceTypes/member.raml
+
+traits:
+  Pageable: !include traits/Pageable.raml
+  Acceptable: !include traits/Acceptable.raml
+
+types:
+  ErrorMessage: !include datatypes/ErrorMessage.raml
+  Restaurant: !include  datatypes/Restaurant.raml
+  RestaurantRequest: !include  datatypes/RestaurantRequest.raml
+  Menu: !include datatypes/Menu.raml
+  MenuRequest: !include datatypes/MenuRequest.raml
+
+/restaurants:
+  type: collection    
+  get:
+    is: [Pageable,Acceptable]
+  post: 
+  
+  
+  /{restaurant_id}:
+    type: member 
+    get:      
+    put:
+    delete:  
+    
+        
+                
+    /menus:
+      type: collection
+        
+      get:
+        is: [Pageable]            
+       
+      post:
+       
+      
+      
+      
+      
+      
+      /{menu_Id}:
+        type: member
+          
+        get:
+        delete:
+        
+        
+        
+        /menuitems:
+          get:
+            is: [Pageable]
+          post:
+          /{menuitem_id}:
+            get:
+            delete:
+            /inventory:
+              get:
+              post:

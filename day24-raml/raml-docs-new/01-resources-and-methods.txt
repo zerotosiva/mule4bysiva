@@ -1,0 +1,22 @@
+Translating categories and actions into resources and methods - 
+
+
+1. Get all restaurants   				Resource _______________	Method _______________
+
+2. Register a new Restaurant     					Resource _______________	Method _______________
+
+3.Get Restaurant information for a specific restaurant ID    		Resource _______________	Method _______________
+
+4. Update a Restaurant information for a specific restaurant ID    	Resource _______________	Method _______________
+
+5.  Delete a Restaurant  with a specific Restaurant ID			Resource _______________	Method _______________
+
+6. Get all menus of a Restaurant by restaurantID      Resource _______________	Method _______________
+
+7. get details of a menu by menu id belonging to a Restaurant by Restaurant ID  Resource _______________	Method _______________
+
+8. Get all menuitems belonging to a menu by menu id which belongs to a restaurant by restaurantID Resource _______________	Method _______________
+
+9. Get a menuitem by menu item id belonging to a menu by menu id which belongs to a restaurant by restaurantid Resource _______________	 Method _______________
+
+10. Get inventory for a menuitem by menuitemid  belonging to a menu by menu id which belongs to a restaurant by restaurantid Resource _______________	 Method _______________

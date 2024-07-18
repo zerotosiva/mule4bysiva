@@ -1,0 +1,84 @@
+:toc:               left
+:toc-title:         livenesscheck Smart Connector Module
+:toclevels:         2
+:last-update-label!:
+:docinfo:
+:source-highlighter: coderay
+:icons: font
+
+
+= livenesscheck Smart Connector Module Documentation Reference
+
++++
+This module relies in runtime provided components
++++
+
+
+== Configurations
+---
+[[config]]
+=== Config
+
+
+==== Parameters
+[cols=".^20%,.^20%,.^35%,.^20%,^.^5%", options="header"]
+|======================
+| Name | Type | Description | Default Value | Required
+|Name | String | The name for this configuration. Connectors reference the configuration with this name. | | *x*{nbsp}
+|======================
+
+
+==== Associated Operations
+* <<MODULE-LIVENESSCHECK>> {nbsp}
+
+
+
+== Operations
+
+[[MODULE-LIVENESSCHECK]]
+=== MODULE LIVENESSCHECK
+`<module-livenesscheck:module-livenesscheck>`
+
++++
+Test Liveness of the Endpoint
++++
+
+==== Parameters
+[cols=".^20%,.^20%,.^35%,.^20%,^.^5%", options="header"]
+|======================
+| Name | Type | Description | Default Value | Required
+| Configuration | String | The name of the configuration to use. | | *x*{nbsp}
+| URL a| String |  |  | *x*{nbsp}
+| Response Timeout a| Number |  |  +++1000+++ | {nbsp}
+| Target Variable a| String |  +++The name of a variable on which the operation's output will be placed+++ |  | {nbsp}
+| Target Value a| String |  +++An expression that will be evaluated against the operation's output and the outcome of that expression will be stored in the target variable+++ |  +++#[payload]+++ | {nbsp}
+|======================
+
+==== Output
+[cols=".^50%,.^50%"]
+|======================
+| *Type* a| String
+|======================
+
+==== For Configurations.
+* <<config>> {nbsp}
+
+==== Throws
+* MODULE-LIVENESSCHECK:BAD_REQUEST {nbsp}
+* MODULE-LIVENESSCHECK:SECURITY {nbsp}
+* MODULE-LIVENESSCHECK:NOT_ACCEPTABLE {nbsp}
+* MODULE-LIVENESSCHECK:UNAUTHORIZED {nbsp}
+* MODULE-LIVENESSCHECK:INTERNAL_SERVER_ERROR {nbsp}
+* MODULE-LIVENESSCHECK:METHOD_NOT_ALLOWED {nbsp}
+* MODULE-LIVENESSCHECK:NOT_FOUND {nbsp}
+* MODULE-LIVENESSCHECK:UNSUPPORTED_MEDIA_TYPE {nbsp}
+* MODULE-LIVENESSCHECK:TIMEOUT {nbsp}
+* MODULE-LIVENESSCHECK:CONNECTIVITY {nbsp}
+* MODULE-LIVENESSCHECK:TOO_MANY_REQUESTS {nbsp}
+* MODULE-LIVENESSCHECK:PARSING {nbsp}
+* MODULE-LIVENESSCHECK:FORBIDDEN {nbsp}
+* MODULE-LIVENESSCHECK:SERVICE_UNAVAILABLE {nbsp}
+* MODULE-LIVENESSCHECK:RETRY_EXHAUSTED {nbsp}
+
+
+
