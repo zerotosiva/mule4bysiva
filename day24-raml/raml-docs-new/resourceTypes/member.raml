@@ -1,0 +1,92 @@
+#%RAML 1.0 ResourceType
+
+get?:
+  description: Retrieve a/an <<resourcePathName | !singularize>> with a specific        <<resourcePathName | !singularize >>
+  displayName: Get a/an <<resourcePathName | !singularize>> by <<resourcePathName | !singularize>> ID
+  responses: 
+    200:
+      body:
+        application/json: 
+          type: <<resourcePathName | !singularize | !uppercamelcase>>
+    404:
+      body:
+        application/json:
+          type: !include ../datatypes/ErrorMessage.raml
+    500:
+      body:
+       application/json: 
+        type: !include ../datatypes/ErrorMessage.raml     
+
+delete?:
+  description: Delete a specific <<resourcePathName | !singularize>>
+  displayName: Delete a/an <<resourcePathName | !singularize>> by <<resourcePathName | !singularize>>ID
+  responses: 
+    200:
+        body:
+          example:
+            {
+
+            "status": "200",
+            
+            "message": "<<resourcePathName | !singularize | !uppercamelcase>> with id {id} is Deleted"
+            
+            }
+    404:
+        body:
+          example:
+            {
+
+            "status": "404",
+            
+            "message": "<<resourcePathName | !singularize | !uppercamelcase>> with id {id} is NOT Found"
+            
+            }
+    500:
+      body:
+       example:
+         {
+          
+          "status": "500",
+          
+          "message": "There was some server side problem. Please try later"
+          
+          }
+put?:
+  description: Update a specific <<resourcePathName | !singularize>>
+  displayName: Update a/an <<resourcePathName | !singularize>> by <<resourcePathName | !singularize>> ID
+  body:
+    application/json:
+      type: <<resourcePathName | !singularize | !uppercamelcase>>Request
+  responses: 
+     200:
+        body:
+          example:
+            {
+
+            "status": "200",
+            
+            "message": "<<resourcePathName | !singularize | !uppercamelcase>> with id {id} is updated"
+            
+            }
+     404:
+        body:
+          example:
+            {
+
+            "status": "404",
+            
+            "message": "<<resourcePathName | !singularize | !uppercamelcase>> with id {id} is NOT Found"
+            
+            }
+     500:
+      body:
+       example:
+         {
+          
+          "status": "500",
+          
+          "message": "There was some server side problem. Please try later"
+          
+          }
+          
+          

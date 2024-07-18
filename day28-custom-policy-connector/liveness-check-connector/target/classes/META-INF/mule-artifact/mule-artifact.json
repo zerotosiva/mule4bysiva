@@ -1,0 +1,21 @@
+{
+  "extensionModelLoaderDescriptor": {
+    "id": "xml-based",
+    "attributes": {
+      "validate-xml": false,
+      "resources-paths": [],
+      "resource-xml": "org/mule/extensions/smart/connector/module-livenesscheck.xml"
+    }
+  },
+  "name": "livenesscheck Smart Connector",
+  "requiredProduct": "MULE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {}
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  },
+  "minMuleVersion": "4.1.1"
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="livenesscheck Smart Connector"
+        prefix="module-livenesscheck"
+        doc:description="This module relies in runtime provided components"
+
+        xmlns="http://www.mulesoft.org/schema/mule/module"
+         xmlns:http="http://www.mulesoft.org/schema/mule/http"
+        xmlns:mule="http://www.mulesoft.org/schema/mule/core"
+        xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+        xmlns:tns="http://www.mulesoft.org/schema/mule/module-livenesscheck"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+           http://www.mulesoft.org/schema/mule/module http://www.mulesoft.org/schema/mule/module/current/mule-module.xsd
+           http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+           http://www.mulesoft.org/schema/mule/module-livenesscheck http://www.mulesoft.org/schema/mule/module-livenesscheck/current/mule-module-livenesscheck.xsd
+           http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+           ">
+
+<http:request-config
+		name="livenessHttpRequestConfig" />
+
+	<operation
+		name="MODULE-LIVENESSCHECK"
+		doc:description="Test Liveness of the Endpoint">
+		<parameters>
+			<parameter
+				name="url"
+				displayName="URL"
+				type="string"
+				use="REQUIRED" />
+			<parameter
+				name="responeTimeout"
+				displayName="Response Timeout"
+				type="number"
+				use="OPTIONAL"
+				defaultValue="1000"
+				tab="Response" />
+		</parameters>
+
+		<body>
+			<http:request
+				config-ref="livenessHttpRequestConfig"
+				method="GET"
+				url="#[vars.url]"
+				responseTimeout="#[vars.responeTimeout]">
+				<mule:error-mapping
+					sourceType="HTTP:PARSING"
+					targetType="MODULE-LIVENESSCHECK:PARSING" />
+				<mule:error-mapping
+					sourceType="HTTP:TIMEOUT"
+					targetType="MODULE-LIVENESSCHECK:TIMEOUT" />
+				<mule:error-mapping
+					sourceType="HTTP:SECURITY"
+					targetType="MODULE-LIVENESSCHECK:SECURITY" />
+				<mule:error-mapping
+					sourceType="HTTP:CONNECTIVITY"
+					targetType="MODULE-LIVENESSCHECK:CONNECTIVITY" />
+				<mule:error-mapping
+					sourceType="HTTP:BAD_REQUEST"
+					targetType="MODULE-LIVENESSCHECK:BAD_REQUEST" />
+				<mule:error-mapping
+					sourceType="HTTP:UNAUTHORIZED"
+					targetType="MODULE-LIVENESSCHECK:UNAUTHORIZED" />
+				<mule:error-mapping
+					sourceType="HTTP:FORBIDDEN"
+					targetType="MODULE-LIVENESSCHECK:FORBIDDEN" />
+				<mule:error-mapping
+					sourceType="HTTP:METHOD_NOT_ALLOWED"
+					targetType="MODULE-LIVENESSCHECK:METHOD_NOT_ALLOWED" />
+				<mule:error-mapping
+					sourceType="HTTP:NOT_FOUND"
+					targetType="MODULE-LIVENESSCHECK:NOT_FOUND" />
+				<mule:error-mapping
+					sourceType="HTTP:NOT_ACCEPTABLE"
+					targetType="MODULE-LIVENESSCHECK:NOT_ACCEPTABLE" />
+				<mule:error-mapping
+					sourceType="HTTP:UNSUPPORTED_MEDIA_TYPE"
+					targetType="MODULE-LIVENESSCHECK:UNSUPPORTED_MEDIA_TYPE" />
+				<mule:error-mapping
+					sourceType="HTTP:TOO_MANY_REQUESTS"
+					targetType="MODULE-LIVENESSCHECK:TOO_MANY_REQUESTS" />
+				<mule:error-mapping
+					sourceType="HTTP:INTERNAL_SERVER_ERROR"
+					targetType="MODULE-LIVENESSCHECK:INTERNAL_SERVER_ERROR" />
+				<mule:error-mapping
+					sourceType="HTTP:SERVICE_UNAVAILABLE"
+					targetType="MODULE-LIVENESSCHECK:SERVICE_UNAVAILABLE" />
+				<mule:error-mapping
+					sourceType="HTTP:RETRY_EXHAUSTED"
+					targetType="MODULE-LIVENESSCHECK:RETRY_EXHAUSTED" />
+			</http:request>
+		</body>
+
+		<output
+			type="string"
+			doc:description="Payload's output" />
+
+		<errors>
+			<error type="PARSING" />
+			<error type="TIMEOUT" />
+			<error type="SECURITY" />
+			<error type="CONNECTIVITY" />
+			<error type="BAD_REQUEST" />
+			<error type="UNAUTHORIZED" />
+			<error type="FORBIDDEN" />
+			<error type="METHOD_NOT_ALLOWED" />
+			<error type="NOT_FOUND" />
+			<error type="NOT_ACCEPTABLE" />
+			<error type="UNSUPPORTED_MEDIA_TYPE" />
+			<error type="TOO_MANY_REQUESTS" />
+			<error type="INTERNAL_SERVER_ERROR" />
+			<error type="SERVICE_UNAVAILABLE" />
+			<error type="RETRY_EXHAUSTED" />
+		</errors>
+	</operation>
+
+ </module>

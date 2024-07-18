@@ -1,0 +1,50 @@
+#%RAML 1.0 ResourceType
+get?: 
+    description: GET All <<resourcePathName | !singularize>>sssss
+    displayName: GET All <<resourcePathName | !singularize>>s
+    responses:
+      200:
+       body: 
+         type: array
+         items: <<resourcePathName | !singularize | !uppercamelcase>>          
+           
+      500:   
+        body:
+          application/json: 
+            type: !include  ../datatypes/ErrorMessage.raml 
+            example:
+              {
+              
+              "status": "500",
+              
+              "message": "There was some server side problem. Please try later"
+              
+              }
+           
+post?:
+  description: Add a new <<resourcePathName | !singularize>>
+  displayName: Add a new <<resourcePathName | !singularize>>
+  body:
+    application/json:
+      type: <<resourcePathName | !singularize | !uppercamelcase>>Request
+  responses: 
+    201:  
+      headers: 
+        Location:
+          description: URL of the new <<resourcePathName | !singularize>> information
+          example: /<<resourcePathName>>/8f19cb50-3f57-4d38
+      body: 
+        type: <<resourcePathName | !singularize | !uppercamelcase>>  
+    500:
+      body:
+        application/json:  
+          type: !include  ../datatypes/ErrorMessage.raml
+          example:
+            {
+            
+            "status": "500",
+            
+            "message": "There was some server side problem. Please try later"
+            
+            }
+          

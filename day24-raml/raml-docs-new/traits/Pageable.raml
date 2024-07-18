@@ -1,0 +1,13 @@
+#%RAML 1.0 Trait
+
+queryParameters:
+  pageSize?:
+   type: number
+   default: 10
+   minimum: 10
+   description: This is the pagesize for paginated response
+  page?:
+    type: number
+    default: 1
+    minimum: 1
+    description: This is the page Number for paginated response
